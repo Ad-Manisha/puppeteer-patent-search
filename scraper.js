@@ -1,5 +1,5 @@
-const puppeteer = require('puppeteer');
-const fs = require('fs');
+import puppeteer from 'puppeteer';
+import fs from 'fs';
 
 const KEYWORD = "Robotic Surgery";
 const URL = "https://ipsearch.ipaustralia.gov.au/patents/";
